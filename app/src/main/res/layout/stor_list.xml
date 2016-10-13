@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:paddingLeft="5dp"
+    android:paddingRight="16dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/kod_bahagian"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="7dp"
+        android:text="test"
+        android:layout_gravity="left"
+        android:background="@drawable/bulatstyle"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bahagian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bahagian"
+        android:textColor="@color/green"
+        android:textSize="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/kod_bahagian"
+        android:layout_toEndOf="@+id/kod_bahagian" />
+
+    <TextView
+        android:id="@+id/jabatan"
+        android:textSize="8sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jabatan"
+        android:layout_below="@+id/bahagian"
+        android:layout_alignLeft="@+id/bahagian"
+        android:layout_alignStart="@+id/bahagian"
+        android:layout_marginLeft="2dp"
+        android:layout_gravity="left" />
+
+</RelativeLayout>

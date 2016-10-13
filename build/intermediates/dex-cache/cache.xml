@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\AndroidStudioProject\Sms2Android\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="C:\AndroidStudioProject\Sms2Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.2.1_1dca3de4ed2547d9ba1f6148a2cc7a9901ea89ab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\AndroidStudioProject\Sms2Android\app\libs\httpclient-4.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="64849efdc10ea21eed3be7cc19ea7ec5af186776">
+        <dex dex="C:\AndroidStudioProject\Sms2Android\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpclient-4.2.1_4fdfe9ef5a5d0332e80152a23ca5cb4ddc9eeb8e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\AndroidStudioProject\Sms2Android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="C:\AndroidStudioProject\Sms2Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.1_f1ae7e882859a5e47c50fc147c62d6ed1957b783\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\AndroidStudioProject\Sms2Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\AndroidStudioProject\Sms2Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_6c7e8a21e65f4f0a86eb38da5da1ec736b9f33fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\AndroidStudioProject\Sms2Android\app\libs\apache-httpcomponents-httpcore.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="33fc26c02f8043ab0ede19eadc8c9885386b255c">
+        <dex dex="C:\AndroidStudioProject\Sms2Android\app\build\intermediates\transforms\dex\debug\folders\1000\2\apache-httpcomponents-httpcore_c8136c2a4bd59ec7685590617e95d29059f4e168\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\AndroidStudioProject\Sms2Android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\AndroidStudioProject\Sms2Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_cf51707473fa5437f4403b3a050802d45ed1448e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\AndroidStudioProject\Sms2Android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="C:\AndroidStudioProject\Sms2Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.1_4a42241cc8c233135b2cc84e38485b02d7161812\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nurzaly\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="C:\AndroidStudioProject\Sms2Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-1.0.19_112b26392851335b4c1b02760357eed6c8e99122\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\AndroidStudioProject\Sms2Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\AndroidStudioProject\Sms2Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_561f15344af3a2b27653ba4e0dab6aec9b567356\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\AndroidStudioProject\Sms2Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_367486334497ca5efbbf3708b676df1c95b517b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\AndroidStudioProject\Sms2Android\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="d79f69d99969a5f3dcec83a8fd7a11d62a1a8eaa">
+        <dex dex="C:\AndroidStudioProject\Sms2Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d64a1544441b0e6e447bac17695e190a97945ef3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\AndroidStudioProject\Sms2Android\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="d1346254d2ca55dd8f3ba20cc825506708960163">
+        <dex dex="C:\AndroidStudioProject\Sms2Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_86b0e58b3f4162d10f48a63a4e06ec320707ef83\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\AndroidStudioProject\Sms2Android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="C:\AndroidStudioProject\Sms2Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.1_d76fe1c9dbadd9508ba4c6f8f019b66389b171cd\classes.dex" />
+    </item>
+
+</items>

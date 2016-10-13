@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SMS2 Android</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="ip_address">
+        <item>Public IP</item>
+        <item>WAN IP</item>
+        <item>LAN IP</item>
+    </string-array>
+
+    <string-array name="ip_address_values">
+        <!--<item>http://192.168.1.40/</item>--><item>http://apps.ilpsdk.gov.my/</item>
+        <item>http://10.203.8.21/</item>
+        <item>http://10.10.10.21/</item>
+    </string-array>
+</resources>

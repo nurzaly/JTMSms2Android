@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ebe8e8">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView4" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:layout_weight="0.58">
+
+                <ImageView
+                    android:layout_width="155dp"
+                    android:layout_height="72dp"
+                    android:id="@+id/imageView"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@mipmap/ic_logo"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="My Staf ED LOGIN"
+                    android:id="@+id/textView6"
+                    android:layout_weight="0.74"
+                    android:textColor="#F20A40"
+                    android:textSize="15dp"
+                    android:gravity="center_horizontal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="No Kad Pengenalan :"
+                    android:height="30dp"
+                    android:id="@+id/textView5" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/etUsername"
+                    android:padding="7dp"
+                    android:background="@drawable/inputstyle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:weightSum="1"
+                android:layout_weight="0.23"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Kata Laluan :"
+                    android:height="30dp"
+                    android:id="@+id/textView4" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:padding="7dp"
+                    android:id="@+id/etPassword"
+                    android:background="@drawable/inputstyle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:padding="10dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Login"
+                    android:id="@+id/btnLogin"
+                    android:textColor="#ffffff"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

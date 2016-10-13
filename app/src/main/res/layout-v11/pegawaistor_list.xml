@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:clickable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <TextView
+        android:id="@+id/pegawaistor_no_kad"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="NO"
+        android:layout_gravity="left|center"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/bulatstyle3"
+        android:textColor="@android:color/white"
+        android:layout_centerVertical="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/pegawaistor_no_kad"
+        android:layout_toEndOf="@+id/pegawaistor_no_kad">
+
+        <TextView
+            android:id="@+id/pegawaistor_nama_pemohon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Pemohon"
+            android:textSize="10sp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/pegawaistor_no_kad"
+            android:layout_toEndOf="@+id/pegawaistor_no_kad"
+            android:textColor="@android:color/holo_blue_dark"/>
+
+        <TextView
+            android:id="@+id/pegawaistor_nama_item"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perihal Item"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/pegawaistor_no_kad"
+            android:layout_toEndOf="@+id/pegawaistor_no_kad"/>
+
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details"
+            android:textSize="10sp"
+            android:layout_alignBottom="@+id/pegawaistor_nama_item"
+            android:layout_alignRight="@+id/pegawaistor_nama_pemohon"
+            android:layout_alignEnd="@+id/pegawaistor_nama_pemohon"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

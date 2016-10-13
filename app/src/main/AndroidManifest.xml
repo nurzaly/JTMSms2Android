@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ilpsdk.sms2android"
+    android:versionCode="2"
+    android:versionName="1.0">
+
+    <application
+        android:name="my.ilpsdk.sms2android.App.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="Sms2 Android"
+        android:theme="@style/MaterialTheme" >
+        <activity
+            android:name="my.ilpsdk.sms2android.MainActivity"
+            android:label="Sms2 Android"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="my.ilpsdk.sms2android.ItemListActivity" />
+        <activity
+            android:noHistory="true"
+            android:name="my.ilpsdk.sms2android.ShowItemActivity"
+            android:parentActivityName="my.ilpsdk.sms2android.ItemListActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.ilpsdk.sms2android.ItemListActivity" />
+        </activity>
+        <activity android:name="my.ilpsdk.sms2android.SettingActivity"></activity>
+    </application>
+
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

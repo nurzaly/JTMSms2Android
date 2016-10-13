@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="SERVER AND NETWORK">
+        <ListPreference
+            android:defaultValue="http://apps.ilpsdk.gov.my/"
+            android:dialogTitle="Ip Address"
+            android:entries="@array/ip_address"
+            android:entryValues="@array/ip_address_values"
+            android:key="ip_address"
+            android:title="IP Address"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="STOR ITEM LIST">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="zero_kuantiti"
+            android:summary="This setting will display zero item quantity in stor item list. Recommendations uncheck this setting to save your data."
+            android:title="Tunjukkan kuantiti zero"/>
+    </PreferenceCategory>
+</PreferenceScreen>

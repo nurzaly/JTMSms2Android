@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:clickable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perihal Item"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/kuantiti"
+        android:layout_alignStart="@+id/kuantiti" />
+
+    <TextView
+        android:id="@+id/kuantiti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kuantiti"
+        android:layout_below="@+id/name"
+        android:layout_toRightOf="@+id/pegawaistor_no_kad"
+        android:layout_toEndOf="@+id/pegawaistor_no_kad" />
+
+    <TextView
+        android:id="@+id/pegawaistor_no_kad"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="NO"
+        android:layout_gravity="left|center"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/bulatstyle2"
+        android:textColor="@android:color/white"
+        android:layout_centerVertical="true" />
+
+
+</RelativeLayout>

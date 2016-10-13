@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/status"
+        android:layout_toEndOf="@+id/status"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/status_item_name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perihal Item"
+            android:layout_alignBaseline="@+id/status"
+            android:layout_alignBottom="@+id/status"
+            android:layout_toRightOf="@+id/status"
+            android:layout_toEndOf="@+id/status"
+            />
+
+        <TextView
+            android:id="@+id/status_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status Details"
+            android:textSize="10sp"
+            android:layout_below="@+id/status_item_name"
+            android:layout_alignRight="@+id/status_item_name"
+            android:layout_alignEnd="@+id/status_item_name"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="S"
+        android:id="@+id/status"
+        android:background="@drawable/bulatstyle"
+        android:textColor="@color/white"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="16sp"
+        android:layout_gravity="center|left"
+        android:layout_centerVertical="true"/>
+
+
+</RelativeLayout>

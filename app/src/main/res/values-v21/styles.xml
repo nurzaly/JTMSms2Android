@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MaterialTheme" parent="ParentMaterialTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:colorAccent">@color/colorAccent</item>
+
+        <item name="android:colorControlHighlight">@color/red</item>
+        <item name="android:colorButtonNormal">#FF5722</item>
+        <item name="android:colorControlActivated">#00B0FF</item>
+    </style>
+</resources>
