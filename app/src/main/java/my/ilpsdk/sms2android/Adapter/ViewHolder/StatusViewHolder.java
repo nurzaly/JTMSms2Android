@@ -1,14 +1,10 @@
 package my.ilpsdk.sms2android.Adapter.ViewHolder;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
 import com.ilpsdk.sms2android.R;
-
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 import my.ilpsdk.sms2android.Model.KeluaranModel;
 import my.ilpsdk.sms2android.Util.WordsCapitalizer;

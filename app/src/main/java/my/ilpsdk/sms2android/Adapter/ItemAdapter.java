@@ -1,7 +1,7 @@
 package my.ilpsdk.sms2android.Adapter;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,8 +12,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import my.ilpsdk.sms2android.Adapter.ViewHolder.ItemViewHolder;
-import my.ilpsdk.sms2android.Adapter.ViewHolder.StorViewHolder;
-import my.ilpsdk.sms2android.Model.ItemModel;
 import my.ilpsdk.sms2android.Model.ItemModel;
 
 /**
